@@ -445,7 +445,7 @@ def crawler(npi, source_url):
 
 
 def main():
-    df = pd.read_csv('chunk_2.csv')
+    df = pd.read_csv('chunk_1.csv')
     for _, row in df.iterrows():
         npi = row['npi']
         source_url = row['doximityurl']
